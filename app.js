@@ -22,9 +22,3 @@ async function searchYouTube(searchTerm) {
     alert("검색 데이터를 불러오지 못했습니다.");
   }
 }
-
-// 예시: 버튼 클릭 시 검색
-document.getElementById("searchButton").addEventListener("click", () => {
-  const query = document.getElementById("searchInput").value;
-  searchYouTube(query);
-});
