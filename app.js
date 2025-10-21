@@ -3,7 +3,7 @@
 async function searchYouTube(searchTerm) {
   // **주의: YouTube API 주소가 아니라, Netlify Function 주소를 호출합니다.**
   // Netlify Function 주소는 보통 /.netlify/functions/함수파일명 입니다.
-  const functionUrl = `https://yotube-iftype.netlify.app/.netlify.app/.netlify/functions/youtube-search?query=${searchTerm}`;
+  const functionUrl = `https://yotube-iftype.netlify.app/.netlify/functions/youtube-search?query=${searchTerm}`;
 
   try {
     const response = await fetch(functionUrl);
