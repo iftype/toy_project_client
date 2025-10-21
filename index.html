@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>YouTube API 클라이언트</title>
   </head>
   <body>
+    <header>
+      <h1>유튜브 검색기 🔍</h1>
+    </header>
+
+    <main>
+      <section class="search-form">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="검색할 내용을 입력하세요"
+        />
+        <button id="searchButton">검색</button>
+      </section>
+
+      <hr />
+
+      <section id="results">
+        <p>검색 버튼을 눌러 Netlify Function을 호출하세요.</p>
+      </section>
+    </main>
+
     <script src="./app.js"></script>
   </body>
 </html>
